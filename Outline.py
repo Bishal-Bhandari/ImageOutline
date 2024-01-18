@@ -2,7 +2,7 @@ import json
 import cv2
 import numpy as np
 
-img = cv2.imread('img_1.png')
+img = cv2.imread('Image/img_1.png')
 bnw = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gus_blr = cv2.GaussianBlur(bnw, (5, 5), 0)
 edges = cv2.Canny(gus_blr, 50, 150)
