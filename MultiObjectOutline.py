@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 img = cv2.imread('Image/img_1.png')  # read image
-bnw = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # Convert img to BnW
+bnw = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # convert img to BnW
 gus_blr = cv2.GaussianBlur(bnw, (5, 5), 0)  # decreasing the noise
 edges = cv2.Canny(gus_blr, 50, 150)  # edge detection
 
