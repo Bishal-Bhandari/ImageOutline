@@ -3,8 +3,8 @@ The program will save the outline in the 2D array into a JSON file.
 
 Input image: 
 
-![alt text](http://url/to/img.png)
+![alt text](Image/img_1.png)
 
 Output Image:
 
-![alt text](http://url/to/img.png)
+![alt text](Image/Image_with_Contours_screenshot_18.01.2024.png)
